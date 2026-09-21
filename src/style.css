@@ -1,4 +1,5 @@
 * {
+  margin: 0px;
   box-sizing: border-box;
 }
 
@@ -7,6 +8,10 @@ body {
   margin: 0 auto;
   padding: 80px 24px;
   background: #0e0e0e;
+  font-family: "Space Mono", monospace;
+  color: #ffffff;
+  line-height: 1.5;
+  font-size: 20px;
 }
 
 /* En-tête */
@@ -17,9 +22,7 @@ header {
 
 .kicker {
   margin: 0 0 24px;
-  font-family: "Space Mono", monospace;
   font-size: 13px;
-  line-height: 1.5;
   letter-spacing: 0.2em;
   text-transform: uppercase;
   color: #f2ff49;
@@ -31,41 +34,22 @@ h1 {
   font-size: 96px;
   line-height: 0.95;
   text-transform: uppercase;
-  color: #ffffff;
-}
-
-.lead {
-  margin: 0;
-  font-family: "Space Mono", monospace;
-  font-size: 20px;
-  line-height: 1.5;
-  color: #ffffff;
 }
 
 /* Manifeste */
 
 ol {
-  margin: 0;
   padding-left: 32px;
-  font-family: "Space Mono", monospace;
   font-size: 18px;
-  line-height: 1.5;
-  color: #ffffff;
 }
 
 li {
   padding: 20px 0;
   border-top: 1px solid #333333;
-  font-family: "Space Mono", monospace;
-  font-size: 18px;
-  line-height: 1.5;
-  color: #ffffff;
 }
 
 strong {
-  font-family: "Space Mono", monospace;
   font-weight: 700;
-  line-height: 1.5;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #f2ff49;
@@ -76,12 +60,9 @@ strong {
 button {
   margin-top: 48px;
   padding: 18px 28px;
-  border: none;
   background: #f2ff49;
-  font-family: "Space Mono", monospace;
   font-size: 14px;
   font-weight: 700;
-  line-height: 1.5;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: #0e0e0e;
@@ -94,13 +75,8 @@ footer {
   margin-top: 64px;
   padding-top: 24px;
   border-top: 1px solid #333333;
-}
-
-footer p {
-  margin: 0;
-  font-family: "Space Mono", monospace;
   font-size: 14px;
-  line-height: 1.5;
+
   font-style: italic;
   color: #8a8a8a;
 }
